@@ -7,7 +7,7 @@
 npm run test
 ```
 
-![Failed Tests Screenshot](https://i.postimg.cc/wjSMdKfV/Screenshot-2022-06-14-at-9-49-19-AM.png)
+![Failed Tests Screenshot](https://imgur.com/KJeyMRk.png)
   
 ### Run the app in terminal
 1. Start a Postgres database server on your machine or in the cloud.
