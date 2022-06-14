@@ -1,8 +1,7 @@
 # Sequelize Many To Many Association With Integer Ids
 
-This app was bootstrapped with [Imagine.ai](https://imagine.ai) 💛
-> Imagine.ai is an app starter on steroids! 
-The purpose of this app is to demonstrate that npm run test fails when run on a sequelize model User and a sequelize model Role having a many to many relationship via RoleUser both having integer userId and roleId on sequelize version 6.20.1 whereas the tests execute perfectly if the data type of userId and roleId was UUIDv4 instead on the postgres dialect
+- The purpose of this app is to demonstrate that npm run test fails when run on a sequelize model User and a sequelize model Role having a many to many relationship via RoleUser both having integer userId and roleId on sequelize version 6.20.1 whereas the tests execute perfectly if the data type of userId and roleId was UUIDv4 instead on the postgres dialect. 
+- Check the User and Role model and their associated controller which use integer userId and roleId columns compared to the other version where they use strings.
   
 ### Run the app in terminal
 1. Start a Postgres database server on your machine or in the cloud.
